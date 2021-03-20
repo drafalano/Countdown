@@ -1,0 +1,481 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+/* 
+   Usser defined CSS
+   Daniel Rafalano
+   03/12/2021 
+   */
+/* Global settings*/
+
+body {
+  font-family: "News Cycle", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  background-color: rgb(151, 151, 151);
+  color: #000;
+}
+
+/* Header Section */
+
+header {
+  background-color: #333333;
+  text-align: center;
+}
+/* Countdown style*/
+#demo {
+  color: #fbdb05;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Main Section*/
+main {
+  width: 100%;
+}
+.container {
+  margin-top: 20px;
+  background-color: #fff;
+}
+.flex-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.cardLeft {
+  margin: 5px 0px 10px 0px;
+  /* background-color: #fff; */
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(
+      to right,
+      rgb(106, 106, 106),
+      rgb(51, 51, 51)
+    ),
+    url("../images/faro.jpg");
+  width: 50%;
+  height: 262px;
+}
+.cardRight {
+  margin: 5px 0px 10px 0px;
+  /* background-color: #fff; */
+  background-color: #fff;
+  background-image: linear-gradient(
+    to left,
+    rgb(106, 106, 106),
+    rgb(51, 51, 51)
+  );
+  width: 50%;
+  height: 262px;
+}
+.innerCard p,
+h2 {
+  color: purple;
+}
+.innerCard h2 {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.innerCard p {
+  font-size: 125%;
+  padding-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.cardBack {
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+.innerCard {
+  background-color: #fff;
+  width: 90%;
+  height: 80%;
+  margin: 30px 0px;
+}
+.video {
+  float: right;
+  width: 50%;
+}
+.sideVideo {
+  width: 50%;
+}
+.myButton {
+  width: 170px;
+  height: 50px;
+  -moz-box-shadow: inset 0px 1px 0px 0px #e184f3;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #e184f3;
+  box-shadow: inset 0px 1px 0px 0px #e184f3;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #c123de),
+    color-stop(1, #a20dbd)
+  );
+  background: -moz-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+  background: -webkit-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+  background: -o-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+  background: -ms-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+  background: linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c123de', endColorstr='#a20dbd',GradientType=0);
+  background-color: #c123de;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #a511c0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 16px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #9b14b3;
+}
+.myButton:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #a20dbd),
+    color-stop(1, #c123de)
+  );
+  background: -moz-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+  background: -webkit-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+  background: -o-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+  background: -ms-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+  background: linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a20dbd', endColorstr='#c123de',GradientType=0);
+  background-color: #a20dbd;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.buttonSection {
+  margin: 10px auto;
+  width: 170px;
+  height: 50px;
+}
+article {
+  text-transform: initial;
+}
+section {
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27),
+    0 0 40px rgba(0, 0, 0, 0.06) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+}
+
+Section p {
+  margin: 0px 10px;
+  padding-bottom: 10px;
+}
+section h1 {
+  margin: 0px 10px;
+  font-size: 2rem;
+}
+article h1 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+/* Footer Seection*/
+footer {
+  margin-top: 10px;
+  background-color: #fbdb05;
+  text-align: center;
+  height: 120px;
+}
+footer h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+footer p {
+  color: purple;
+  margin-top: 40px;
+}
+.contactUs {
+  background-color: #fbdb05;
+  width: 60px;
+  height: 60px;
+}
+.contactUs p {
+  margin: 0px;
+}
+img.contactUs {
+  margin-top: 15px;
+  margin-right: 60px;
+  padding-right: 15px;
+}
+#spacearound {
+  justify-content: space-around;
+}
+.flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  /*flex-wrap: nowrap;*/
+  align-items: center;
+}
+.flex-item2 {
+  /* display: flex; */
+  flex-grow: 1;
+}
+
+/* Rewponsive */
+@media (max-width: 750px) {
+  span {
+    font-size: 1rem;
+    width: 364px;
+  }
+  .flex-item {
+    flex-direction: column;
+  }
+  #myVideo {
+    width: 100%;
+  }
+  #demo {
+    color: #fbdb05;
+    font-size: 1rem;
+    font-weight: bolder;
+    height: 50%;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .cardRight {
+    margin: 5px 0px 10px 0px;
+    /* background-color: #fff; */
+    background-color: #fff;
+    background-image: linear-gradient(
+      to left,
+      rgb(106, 106, 106),
+      rgb(51, 51, 51)
+    );
+    width: 50%;
+    height: 131;
+  }
+  .innerCard h2 {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  .innerCard p {
+    font-size: 100%;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+  }
+  footer {
+    margin-top: 10px;
+    background-color: #fbdb05;
+    text-align: center;
+    height: 200%;
+  }
+  footer h2 {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .flex-container {
+    display: inline-flex;
+    flex-direction: column;
+    /*flex-wrap: nowrap;*/
+    align-items: center;
+  }
+  .flex-item2 {
+    flex-grow: 1;
+  }
+
+  #spacearound {
+    justify-content: initial;
+  }
+  .contactUs {
+    background-color: #fbdb05;
+    width: 50%;
+    height: 50%;
+  }
+  img.contactUs {
+    width: 50%;
+    height: 50%;
+    margin-top: 4x;
+    margin-right: 15px;
+    padding-right: 4px;
+  }
+}
